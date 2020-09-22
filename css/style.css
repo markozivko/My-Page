@@ -1,23 +1,77 @@
-body { 
-    margin: 0;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Courier Prime", monospace;
 }
 
-h1 { 
-    margin-top: 0;
+h1 {
+  margin-top: 0;
+  /* if we want to center an element and set width to certain % */
+  /*width: 10%;*/
+  /* since we are using custom width now text aling from body does not apply*/
+  /* attributes going clockwise */
+  /*margin: 0 auto 0 auto ;*/
 }
 
-.top-container { 
-    background-color: #d6e0f0;
+hr {
+  margin: 0;
+}
+table {
+  margin: 0 auto 0 auto;
+  border-spacing: 10px;
+  border-collapse: separate;
 }
 
-.middle-container { 
-    background-color: red;
-    width: 200px;
-    height: 200px;
+.work-table {
+  border-spacing: 20px;
+  border-collapse: separate;
 }
 
-.bottom-container { 
-    background-color: blue;
-    width: 200px;
-    height: 200px;
+.top-container {
+  background-color: #d6e0f0;
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container {
+  background-color: #d6e0f0;
+  position: relative;
+}
+
+.bottom-container {
+  background-color: #d6e0f0;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row {
+  text-align: left;
+  padding: 10px;
+}
+
+.custom-row {
+  border: solid;
+}
+
+.trademark {
+  margin-bottom: 0;
+}
+
+#profile-image {
+  margin-top: 20px;
+  border-radius: 100%;
+  border-width: 10px;
+  border-color: #393b44;
+  border-style: double;
 }
