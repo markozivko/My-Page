@@ -2,15 +2,21 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Courier Prime", monospace;
+  color: #393b44;
 }
 
 h1 {
   margin-top: 0;
+  font-size: 80px;
   /* if we want to center an element and set width to certain % */
   /*width: 10%;*/
   /* since we are using custom width now text aling from body does not apply*/
   /* attributes going clockwise */
   /*margin: 0 auto 0 auto ;*/
+}
+
+h2 { 
+  margin-bottom: 0px;
 }
 
 hr {
@@ -56,8 +62,11 @@ table {
 }
 
 .skill-row {
+  margin: auto;
   text-align: left;
   padding: 10px;
+  width: 50%;
+  text-align: center;
 }
 
 .custom-row {
@@ -66,6 +75,10 @@ table {
 
 .trademark {
   margin-bottom: 0;
+}
+
+.footer-link { 
+  color: #393b44;
 }
 
 #profile-image {
