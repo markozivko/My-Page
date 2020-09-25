@@ -81,6 +81,12 @@ table {
   color: #393b44;
 }
 
+.contact-info { 
+  width: 300px;
+  text-align: left;
+  margin: 0 auto 0 auto;
+}
+
 #profile-image {
   margin-top: 20px;
   border-radius: 100%;
